@@ -103,7 +103,8 @@ export default {
   // the node env.
   env: {
     baseUrl: process.env.BASE_URL || 'https://nuxt-anime-blog.firebaseio.com',
-    fbApiKey: 'AIzaSyCoQm-pMFX2GzQDc4sRoqRlKaNbTvDhYgw'
+    // Need FIREBASE API KEY
+    fbApiKey: ''
   },
 
   // Change the way Nuxt statically generates pages.
